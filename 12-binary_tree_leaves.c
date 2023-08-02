@@ -13,7 +13,7 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 
 	if (tree == NULL)
 		return (0);
-
+	/*condition that the recursive calls will be looking at*/
 	if (tree->left == NULL && tree->right == NULL)
 	{
 		no_of_leaves++;
