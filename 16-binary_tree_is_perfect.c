@@ -9,6 +9,8 @@
 
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
+	/*all levels are completely filled with nodes*/
+	/*and leaves nodes are at the same level*/
 	int left_perfect = 0;
 	int right_perfect = 0;
 
